@@ -1,0 +1,97 @@
+/* General Page Styling */
+body {
+    font-family: Bebas Neue;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+h1, h3 {
+    color: #0073e6; /* Blue color for headings */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    margin: 10px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    max-width: 1000px;
+}
+
+/* Image Styling */
+img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Section Header Styling */
+h3 {
+    color: black;
+
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+/* Blue information box */
+.blue-box {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 5px;
+}
+
+.blue-box p {
+    margin: 5px 0;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #0073e6;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Link Styling */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+}
+em{
+    color: #0073e6;
+}
